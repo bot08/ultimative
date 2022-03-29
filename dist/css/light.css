@@ -1,0 +1,36 @@
+/* 
+bg-normal: #eee
+bg-object: #ddd
+font-color: #111
+*/
+
+.bg-normal {
+    background-color: #eee;
+}
+.bg-object {
+    background-color: #ddd;
+}
+.font-color {
+    color: #111;
+}
+
+/***************************************/
+
+/* basic */
+html, body {
+    background: #eee;
+    color:#111;
+}
+
+
+
+/* nav */
+.navbar {
+    background-color: #ddd;
+}
+.navbar_links a {
+    color: #111;
+}
+.navbar_links a:hover {
+    background-color: #eee;
+}
