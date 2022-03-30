@@ -5,6 +5,9 @@ if(!isset($request)){exit;}
 ?>
 
 <nav class="bg-object">
+    <div class="mobile_only">
+        <!-- TODO -->
+    </div>
     <ul class="navbar container">
         <li class="navbar_links">
             <a href="/">Home</a>

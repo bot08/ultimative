@@ -34,9 +34,9 @@ switch ($request[1]) {
 
 
     // 404 page
-    default:
+    default :
         http_response_code(404);
-        $viev="system/404.php";  // FIX
+        $view="system/404.php";
         $pagetitle="404";
         $description="404";
         break;

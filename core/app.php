@@ -1,6 +1,14 @@
 <?php
 if(!isset($request)){exit;}
 
+// определение браузера
+$agent = $_SERVER['HTTP_USER_AGENT'];
+preg_match("/(MSIE|Opera|Firefox|Chrome|Version)(?:\/| )([0-9.]+)/", $agent, $bInfo);
+$browserInfo = array();
+$browserInfo['name'] = ($bInfo[1]=="Version") ? "Safari" : $bInfo[1];
+$browserInfo['version'] = $bInfo[2];
+
+
 
 ?>
 
@@ -32,7 +40,7 @@ if(!isset($request)){exit;}
     <body>
         <?php require 'core/navbar.php' ?>
 
-        <main class="container bg-object rounded">
+        <main class="container">
             <?php require 'views/'.$view ?>
         </main>
     </body>
