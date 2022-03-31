@@ -40,8 +40,8 @@ $browserInfo['version'] = $bInfo[2];
     <body>
         <?php require 'core/navbar.php' ?>
 
-        <main class="container">
+        <div class="container bg-object rounded">
             <?php require 'views/'.$view ?>
-        </main>
+        </div>
     </body>
 </html>

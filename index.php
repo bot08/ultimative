@@ -26,9 +26,9 @@ switch ($request[1]) {
         $description="";
         break;
 
-    case 'settings' :
-        $view="system/settings.php";
-        $pagetitle="Настройки";
+    case 'search' :
+        $view="system/search.php";
+        $pagetitle="Поиск";
         $description="";
         break;
 

@@ -37,3 +37,20 @@ html, body{
     margin: 4px 6px;
     text-decoration: none;
 }
+
+/* mob nav */
+@media(min-width:425px){
+    .mobile_only {
+        display: none;
+    }
+}
+
+@media(max-width:425px){
+    .pc_only {
+        display: none;
+    }
+}
+
+.mobile_right_icons {
+    float: right;
+}
