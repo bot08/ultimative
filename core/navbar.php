@@ -1,7 +1,7 @@
 <?php 
 if(!isset($request)){exit;}
 
-// todo: сделать через цикл (array), иконки
+// todo: зробити через цикл (array), icons
 ?>
 
 <nav class="bg-object">

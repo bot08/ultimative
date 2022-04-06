@@ -1,7 +1,7 @@
 <?php
 if(!isset($request)){exit;}
 
-// определение браузера
+// визначення браузера
 $agent = $_SERVER['HTTP_USER_AGENT'];
 preg_match("/(MSIE|Opera|Firefox|Chrome|Version)(?:\/| )([0-9.]+)/", $agent, $bInfo);
 $browserInfo = array();

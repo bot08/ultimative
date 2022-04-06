@@ -1,13 +1,13 @@
 <?php
 $request = explode("/", $_SERVER['REQUEST_URI']);
 
-// Тут место для подключения скриптов, которые до отправки заголовка
+// Місця для додаткових скриптів
 
 
 switch ($request[1]) {
     case '' :
         $view="home.php";
-        $pagetitle="Домашняя страница";
+        $pagetitle="Домашня сторінка";
         $description="Hello world!";
         break;
 
@@ -28,7 +28,7 @@ switch ($request[1]) {
 
     case 'search' :
         $view="system/search.php";
-        $pagetitle="Поиск";
+        $pagetitle="Пошук";
         $description="";
         break;
 
